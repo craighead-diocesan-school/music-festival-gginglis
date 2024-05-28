@@ -11,7 +11,13 @@
         background-color: #f6e9ff;
         font-family: "KoHo", sans-serif;
         font-weight: 500;
+    }
+    a {
         color: #9468cf;
         font-size: 2rem;
+    }
+
+    a:hover {
+        color: #5c3c9c;
     }
 </style>
