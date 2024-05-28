@@ -4,9 +4,11 @@
     import Footer from "$lib/Footer.svelte";
 </script>
 
-<Header />
+<div class="header">
+    <Header />
 
-<Nav />
+    <Nav />
+</div>
 
 <main>
     <div class="image">
@@ -68,9 +70,23 @@
         font-weight: 500;
         color: #9468cf;
         font-size: 1.3rem;
+        text-align: justify;
     }
 
     img {
         grid-area: I;
+        width: 700px;
+    }
+
+    .text {
+        width: 700px;
+        margin: 40px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        border: 1px;
+        border-color: #9468cf;
     }
 </style>
