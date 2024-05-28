@@ -12,5 +12,6 @@
     font-size: 6rem;
     font-weight: 700;
     background-color: #f6e9ff;
+    grid-area: H;
   }
 </style>

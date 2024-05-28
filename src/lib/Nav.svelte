@@ -8,5 +8,10 @@
 <style>
     nav {
         grid-area: N;
+        background-color: #f6e9ff;
+        font-family: "KoHo", sans-serif;
+        font-weight: 500;
+        color: #9468cf;
+        font-size: 2rem;
     }
 </style>
