@@ -12,7 +12,6 @@
     font-size: 3.75rem;
     font-weight: 700;
     background-color: #f6e9ff;
-    grid-area: H;
     padding: 40px;
   }
 </style>

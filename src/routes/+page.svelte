@@ -1,39 +1,42 @@
 <script>
-  import Header from "$lib/Header.svelte";
-  import Nav from "$lib/Nav.svelte";
   import Footer from "$lib/Footer.svelte";
 </script>
 
-<Header />
-
-<Nav />
+<header>
+  <h1>sunburst</h1>
+  <h1>festival</h1>
+</header>
 
 <main>
-  <p>32 november 2007 20:65 am no idea where</p>
-
-  <img src="samuel-regan-asante.jpg" alt="" />
+  <p>32 november 2007</p>
+  <p>20:65 am</p>
+  <p>no idea where</p>
 </main>
+<img src="samuel-regan-asante.jpg" alt="" />
 
+<nav>
+  <a href="/">home</a>
+  <a href="/general">general</a>
+  <a href="/acts">acts</a>
+  <a href="/accommodation">accommodation</a>
+</nav>
 <Footer />
 
 <style>
-  /* h2 {
+  h1 {
+    text-transform: uppercase;
+    font-family: "Kufam", sans-serif;
+    color: #9468cf;
+    font-size: 5rem;
+    font-weight: 700;
     background-color: #f6e9ff;
-  } */
-  /* header {
     grid-area: H;
-  } */
+  }
 
   main {
     background-color: #f6e9ff;
-    display: grid;
-    grid:
-      ".  I" 25vh
-      "H   I" 25vh
-      "P   I" 25vh
-      "N   I" 25vh
-      "F   F" 25vh
-      / 1fr 1fr;
+    width: 720px;
+    /* display: flex; */
   }
 
   p {
@@ -42,14 +45,25 @@
     font-weight: 500;
     color: #9468cf;
     font-size: 3rem;
+    margin: 10px;
+    text-align: left;
+  }
+
+  nav {
+    grid-area: N;
+  }
+  a {
+    color: #f6e9ff;
+    background-color: #9468cf;
+    font-size: 1.65rem;
+    font-family: "KoHo", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
   }
 
   img {
     grid-area: I;
+    width: 720px;
   }
-
-  /* footer {
-    background-color: #f6e9ff;
-    grid-area: F;
-  } */
 </style>
