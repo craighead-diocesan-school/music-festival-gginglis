@@ -10,6 +10,7 @@
         font-weight: 500;
         background-color: #f6e9ff;
         text-align: center;
-        padding: 20px;
+        padding: 50px 20px;
+        border-top: 2px solid #9568cf89;
     }
 </style>

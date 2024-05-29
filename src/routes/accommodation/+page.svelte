@@ -65,12 +65,14 @@
         color: #5c3c9c;
         font-size: 3rem;
         font-weight: 700;
+        margin: 20px 40px 0px;
     }
     h3 {
         font-family: "Kufam", sans-serif;
         color: #9468cf;
         font-size: 2.25rem;
         font-weight: 700;
+        margin: -33px 10px 20px 331px;
     }
     main {
         background-color: #f6e9ff;
@@ -83,22 +85,21 @@
         color: #9468cf;
         font-size: 1.3rem;
         text-align: justify;
+        margin: 19px;
     }
 
     img {
-        grid-area: I;
-        width: 700px;
+        width: 720px;
     }
 
     .text {
         width: 700px;
-        margin: 20px 40px;
+        margin-top: 15px;
     }
 
     .header {
         display: flex;
         flex-direction: row;
-        border: 1px;
-        border-color: #9468cf;
+        border-bottom: 2px solid #9568cf89;
     }
 </style>

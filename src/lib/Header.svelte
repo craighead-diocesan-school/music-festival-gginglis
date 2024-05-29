@@ -9,10 +9,10 @@
     text-transform: uppercase;
     font-family: "Kufam", sans-serif;
     color: #9468cf;
-    font-size: 4rem;
+    font-size: 3.75rem;
     font-weight: 700;
     background-color: #f6e9ff;
     grid-area: H;
-    padding: 30px;
+    padding: 40px;
   }
 </style>
