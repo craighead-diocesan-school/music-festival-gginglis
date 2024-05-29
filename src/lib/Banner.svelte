@@ -1,3 +1,7 @@
+<script>
+    import { page } from "$app/stores";
+</script>
+
 <div class="banner">
     <header>
         <h1>Sunburst Festival</h1>
@@ -5,16 +9,24 @@
 
     <nav>
         <div class="right">
-            <a href="/">home</a>
+            <a class:is-active={$page.url.pathname == "/"} href="/">home</a>
         </div>
         <div class="left">
-            <a href="/general">general</a>
+            <a
+                class:is-active={$page.url.pathname == "/general"}
+                href="/general">general</a
+            >
         </div>
         <div class="left">
-            <a href="/acts">acts</a>
+            <a class:is-active={$page.url.pathname == "/acts"} href="/acts"
+                >acts</a
+            >
         </div>
         <div class="left">
-            <a href="/accommodation">accommodation</a>
+            <a
+                class:is-active={$page.url.pathname == "/accommodation"}
+                href="/accommodation">accommodation</a
+            >
         </div>
     </nav>
 </div>
@@ -56,5 +68,9 @@
         display: flex;
         flex-direction: row;
         border-bottom: 2px solid #9568cf89;
+    }
+
+    .is-active {
+        color: #5c3c9c;
     }
 </style>
