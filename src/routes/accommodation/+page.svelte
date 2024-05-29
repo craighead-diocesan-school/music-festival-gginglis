@@ -6,11 +6,6 @@
 </script>
 
 <Banner />
-<!-- <div class="header">
-    <Header />
-
-    <Nav />
-</div> -->
 
 <main>
     <div class="image">
@@ -98,10 +93,4 @@
         width: 700px;
         margin-top: 15px;
     }
-
-    /* {
-        display: flex;
-        flex-direction: row;
-        border-bottom: 2px solid #9568cf89;
-    } */
 </style>
