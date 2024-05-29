@@ -35,7 +35,7 @@
     </nav>
   </div>
 
-  <img src="samuel-regan-asante.jpg" alt="" />
+  <img src="samuel-regan-asante copy.jpg" alt="" />
 </main>
 <Footer />
 
@@ -53,15 +53,15 @@
     font-size: 6rem;
     font-weight: 700;
     background-color: #f6e9ff;
+    margin: 30px 0px;
   }
 
   h2 {
-    grid-area: P;
     font-family: "KoHo", sans-serif;
     font-weight: 500;
-    color: #9468cf;
+    color: #9568cfc5;
     font-size: 2.7rem;
-    /* margin: 10px; */
+    margin: -30px 10px;
     text-align: left;
   }
   .header {
@@ -70,13 +70,13 @@
   }
   .text {
     background-color: #f6e9ff;
-    padding: 10px 30px 30px;
+    padding: 25px 30px 50px;
   }
   .nav {
     display: flex;
     flex-direction: row;
     background-color: #f6e9ff;
-    padding-left: 30px;
+    padding: 20px 0px 20px 30px;
   }
   a {
     color: #f6e9ff;
@@ -84,7 +84,7 @@
     font-size: 1.65rem;
     font-family: "KoHo", sans-serif;
     font-weight: 500;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 10px;
   }
 
@@ -98,6 +98,6 @@
 
   .content {
     width: 730px;
-    margin-right: 127px;
+    margin-right: 71px;
   }
 </style>
