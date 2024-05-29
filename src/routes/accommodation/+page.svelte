@@ -1,14 +1,16 @@
 <script>
-    import Header from "$lib/Header.svelte";
-    import Nav from "$lib/Nav.svelte";
+    // import Header from "$lib/Header.svelte";
+    // import Nav from "$lib/Nav.svelte";
+    import Banner from "$lib/Banner.svelte";
     import Footer from "$lib/Footer.svelte";
 </script>
 
-<div class="header">
+<Banner />
+<!-- <div class="header">
     <Header />
 
     <Nav />
-</div>
+</div> -->
 
 <main>
     <div class="image">
@@ -97,9 +99,9 @@
         margin-top: 15px;
     }
 
-    .header {
+    /* {
         display: flex;
         flex-direction: row;
         border-bottom: 2px solid #9568cf89;
-    }
+    } */
 </style>

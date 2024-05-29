@@ -1,29 +1,25 @@
 <script>
+  import Banner from "$lib/Banner.svelte";
   import Footer from "$lib/Footer.svelte";
 </script>
 
-<header>
-  <h1>sunburst</h1>
-  <h1>festival</h1>
-</header>
+<Banner />
 
 <main>
-  <p>32 november 2007</p>
-  <p>20:65 am</p>
-  <p>no idea where</p>
+  <div class="image">
+    <img src="samuel-regan-asante.jpg" alt="" />
+  </div>
+  <div class="text">
+    <p>32 november 2007</p>
+    <p>20:65 am</p>
+    <p>no idea where</p>
+  </div>
 </main>
-<img src="samuel-regan-asante.jpg" alt="" />
 
-<nav>
-  <a href="/">home</a>
-  <a href="/general">general</a>
-  <a href="/acts">acts</a>
-  <a href="/accommodation">accommodation</a>
-</nav>
 <Footer />
 
 <style>
-  h1 {
+  /* h1 {
     text-transform: uppercase;
     font-family: "Kufam", sans-serif;
     color: #9468cf;
@@ -31,7 +27,7 @@
     font-weight: 700;
     background-color: #f6e9ff;
     grid-area: H;
-  }
+  } */
 
   main {
     background-color: #f6e9ff;
@@ -49,10 +45,10 @@
     text-align: left;
   }
 
-  nav {
+  /* nav {
     grid-area: N;
-  }
-  a {
+  } */
+  /* a {
     color: #f6e9ff;
     background-color: #9468cf;
     font-size: 1.65rem;
@@ -60,7 +56,7 @@
     font-weight: 500;
     padding: 10px;
     margin: 10px;
-  }
+  } */
 
   img {
     grid-area: I;

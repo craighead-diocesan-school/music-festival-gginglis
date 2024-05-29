@@ -9,7 +9,7 @@
     text-transform: uppercase;
     font-family: "Kufam", sans-serif;
     color: #9468cf;
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-weight: 700;
     background-color: #f6e9ff;
     padding: 40px;

@@ -1,11 +1,8 @@
 <script>
-    import Header from "$lib/Header.svelte";
-    import Nav from "$lib/Nav.svelte";
+    import Banner from "$lib/Banner.svelte";
     import Footer from "$lib/Footer.svelte";
 </script>
 
-<Header />
-
-<Nav />
+<Banner />
 
 <Footer />

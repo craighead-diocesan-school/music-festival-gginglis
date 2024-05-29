@@ -18,7 +18,7 @@
         background-color: #f6e9ff;
         font-family: "KoHo", sans-serif;
         font-weight: 500;
-        padding: 60px 77.5px 60px 150px;
+        padding: 60px 77.5px 50px 275px;
         display: flex;
     }
     a {
