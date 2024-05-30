@@ -53,7 +53,7 @@
         </p>
     </div>
     <div class="image">
-        <img src="/samuel-regan-asante.jpg" alt="" />
+        <img src="/samuel-regan-asante.jpg" alt="Samuel Regan Asante" />
     </div>
 </main>
 

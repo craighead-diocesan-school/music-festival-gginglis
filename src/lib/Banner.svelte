@@ -54,10 +54,12 @@
         color: #9468cf;
         font-size: 1.65rem;
         margin: 15px;
+        transition: 0.4s;
     }
 
     a:hover {
         color: #5c3c9c;
+        transition: 0.4s;
     }
 
     .left {

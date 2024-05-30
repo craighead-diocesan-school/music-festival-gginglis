@@ -29,6 +29,7 @@
 
     a:hover {
         color: #5c3c9c;
+        transition: 1s;
     }
 
     .left {

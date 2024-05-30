@@ -35,7 +35,7 @@
     </nav>
   </div>
 
-  <img src="samuel-regan-asante copy.jpg" alt="" />
+  <img src="samuel-regan-asante copy.jpg" alt="Samuel Regan Asante" />
 </main>
 <Footer />
 
@@ -59,7 +59,7 @@
   h2 {
     font-family: "KoHo", sans-serif;
     font-weight: 500;
-    color: #9568cfc5;
+    color: #9468cf;
     font-size: 2.7rem;
     margin: -30px 10px;
     text-align: left;
@@ -86,10 +86,12 @@
     font-weight: 500;
     padding: 10px 20px;
     margin: 10px;
+    transition: 0.4s;
   }
 
   a:hover {
-    background-color: #764eb4;
+    background-color: #5c3c9c;
+    transition: 0.4s;
   }
 
   img {
