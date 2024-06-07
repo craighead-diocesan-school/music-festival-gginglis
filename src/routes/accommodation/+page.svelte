@@ -9,7 +9,11 @@
 
 <main>
     <div class="image">
-        <img src="/hanny-naibaho.jpg" alt="Hanny Naibaho" />
+        <img
+            src="/hanny-naibaho.jpg"
+            alt="Hanny Naibaho"
+            title="Hanny Naibaho"
+        />
     </div>
     <div class="text">
         <h2>accommodation</h2>

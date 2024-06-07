@@ -35,7 +35,11 @@
     </nav>
   </div>
 
-  <img src="samuel-regan-asante copy.jpg" alt="Samuel Regan Asante" />
+  <img
+    src="samuel-regan-asante copy.jpg"
+    alt="Samuel Regan Asante"
+    title="Samuel Regan Asante"
+  />
 </main>
 <Footer />
 
