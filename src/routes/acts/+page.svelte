@@ -55,7 +55,7 @@
     <div class="image">
         <img
             src="/samuel-regan-asante.jpg"
-            alt="Samuel Regan Asante"
+            alt="a festival crowd surrounded by purple light and confetti"
             title="Samuel Regan Asante"
         />
     </div>

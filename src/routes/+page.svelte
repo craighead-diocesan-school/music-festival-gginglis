@@ -37,7 +37,7 @@
 
   <img
     src="samuel-regan-asante copy.jpg"
-    alt="Samuel Regan Asante"
+    alt="a festival crowd surrounded by purple light and confetti"
     title="Samuel Regan Asante"
   />
 </main>

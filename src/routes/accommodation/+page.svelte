@@ -11,7 +11,7 @@
     <div class="image">
         <img
             src="/hanny-naibaho.jpg"
-            alt="Hanny Naibaho"
+            alt="a festival stage shown from the crowd with purple lighting"
             title="Hanny Naibaho"
         />
     </div>
